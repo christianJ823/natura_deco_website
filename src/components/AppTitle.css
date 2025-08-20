@@ -1,0 +1,21 @@
+.app-title-container {
+  padding: 20px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-title {
+  font-size: 49px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.title-natura {
+  color: #94d2bd;
+}
+
+.title-deco {
+  color: #000;
+}
