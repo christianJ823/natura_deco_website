@@ -1,8 +1,47 @@
-# NaturaDECO - Versión Web
+# NaturaDECO - Web Version / Versión Web
+
+This is the web version of the NaturaDECO application, converted from React Native to React for web browsers.
 
 Esta es la versión web de la aplicación NaturaDECO, convertida desde React Native a React para navegadores web.
 
-## 🚀 Características
+---
+
+## 🚀 Getting Started (English)
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+You need to have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed on your machine.
+
+### Installation
+
+1.  **Clone the repository** (if you haven't already).
+
+2.  **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+3.  **Set up environment variables:**
+
+    -   Create a `.env` file by copying the example file:
+        ```bash
+        cp .env.example .env
+        ```
+    -   Open the `.env` file and add your Commerce Tools credentials. You can get these from your Commercetools Merchant Center.
+
+4.  **Run the application:**
+
+    ```bash
+    npm start
+    ```
+
+    This will run the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+---
+## 🚀 Características (Español)
 
 - **Interfaz moderna y responsive**: Adaptada para navegadores web con diseño mobile-first
 - **Carrito de compras**: Sistema completo de gestión de carrito
@@ -19,26 +58,23 @@ Esta es la versión web de la aplicación NaturaDECO, convertida desde React Nat
 - **Axios**: Cliente HTTP para API calls
 - **Context API**: Gestión de estado del carrito
 
-## 📦 Instalación
+## 📦 Instalación (Español)
 
-1. Navega a la carpeta website:
-
-   ```bash
-   cd website
-   ```
-
-2. Instala las dependencias:
+1. **Instala las dependencias:**
 
    ```bash
    npm install
    ```
 
-3. Configura las variables de entorno:
+2. **Configura las variables de entorno:**
 
-   - Copia `.env.example` a `.env`
-   - Completa con tus credenciales de Commerce Tools
+   - Crea un archivo `.env` copiando el de ejemplo:
+     ```bash
+     cp .env.example .env
+     ```
+   - Abre el archivo `.env` y completa con tus credenciales de Commerce Tools.
 
-4. Inicia la aplicación:
+3. **Inicia la aplicación:**
    ```bash
    npm start
    ```
