@@ -8,6 +8,4 @@
 .main-content {
   padding-top: 70px; /* Altura del navbar */
   flex: 1;
-  display: flex;
-  flex-direction: column;
 }
