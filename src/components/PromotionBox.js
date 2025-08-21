@@ -9,7 +9,7 @@ const PromoInfo = () => (
       incluido y alojamiento en hotel 5 estrellas
     </p>
     <img
-      src="https://raw.githubusercontent.com/chrisrm86/media-resources/main/images/italy_rome_colosseum_architecture_58374_960x544.jpg"
+      src="https://plus.unsplash.com/premium_photo-1661964123160-8d049fa07f0c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA=="
       alt="Roma"
       className="promo-image"
     />
