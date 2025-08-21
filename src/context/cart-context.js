@@ -10,7 +10,11 @@ export const CartProvider = ({ children }) => {
       const itemIndex = prevItems.findIndex((item) => item.id === product.id);
       if (itemIndex > -1) {
         const updatedItems = [...prevItems];
-        updatedItems[itemIndex].quantity += 1;
+        const updatedItem = {
+          ...updatedItems[itemIndex],
+          quantity: updatedItems[itemIndex].quantity + 1,
+        };
+        updatedItems[itemIndex] = updatedItem;
         return updatedItems;
       }
 
