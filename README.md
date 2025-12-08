@@ -1,6 +1,7 @@
 # NaturaDECO - Versión Web
 
 Esta es la versión web de la aplicación NaturaDECO, convertida desde React Native a React para navegadores web.
+Este proyecto fue realizado para exponer en la AI Work Session de Encora el uso de Google Jules.
 
 ## 🚀 Características
 
